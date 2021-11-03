@@ -27,5 +27,8 @@ public class MyStack {
     public void printStack() {
         myLinkedList.printNodes();
     }
+    public void enqueu(INode myNode) {
+        myLinkedList.append(myNode);
+    }
 
 }
