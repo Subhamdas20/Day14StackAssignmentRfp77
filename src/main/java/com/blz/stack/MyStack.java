@@ -33,6 +33,21 @@ public class MyStack {
         return myLinkedList.head;
     }
 
+
+    /*
+     * pop is used to delete nodes
+     * */
+    public INode pop() {
+        return myLinkedList.pop();
+    }
+
+    /*
+     * Used to check if queue is empty or not
+     * */
+    public boolean isEmpty() {
+        return myLinkedList.head == null;
+    }
+
     /*
      * print stack
      * */
