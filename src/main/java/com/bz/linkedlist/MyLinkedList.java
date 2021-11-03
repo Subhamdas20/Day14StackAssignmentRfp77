@@ -55,10 +55,14 @@ public class MyLinkedList<T> {
     /*
      * pop is used to remove head node
      */
-    public void pop() {
+    public INode pop() {
         this.head = head.getNext();
+        return null;
     }
 
+    /*
+     * Used to delete last element
+     */
     public <T> INode popLast() {
         INode tempNode = this.head;
         while (!tempNode.getNext().equals(tail)) {
